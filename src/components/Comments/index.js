@@ -24,7 +24,7 @@ class Comments extends Component {
     commentsList: [],
   }
 
-  deleteCount = commentId => {
+  deleteComment = commentId => {
     const {commentsList} = this.state
 
     this.setState({
